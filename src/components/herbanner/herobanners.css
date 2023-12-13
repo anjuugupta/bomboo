@@ -1,0 +1,60 @@
+.contantBanner {
+  color: #0000008f;
+  font-size: 38.656px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 43.488px; /* 112.5% */
+  letter-spacing: 1.208px;
+  text-transform: uppercase;
+}
+.btn {
+    display: inline-flex;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 56%);
+    color: #fcfcfc;
+    font-size: 17px;
+    border: none;
+    margin-top: 81px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* margin-top: 321px; */
+  text-transform: uppercase;
+}
+.banner {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .contantBanner {
+    position: absolute;
+    margin-top: 98px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #00000066; 
+  }
+  
+  .contantBanner p {
+    font-size: 38.656px;
+    color: #555;
+    margin-right: 40px;
+    margin-bottom: 15px;
+  }
+  
+
+  
+  .btn:hover {
+    background-color: #555; 
+  }
+  

@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #E7EAEF; /* Add your desired background color */
+    padding: 26px; /* Adjust padding as needed */
+  }
+  
+  .nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    margin: 4px 22px 0 23px;
+  }
+  
+  .openfashion {
+    display: block; /* Centering block-level element */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .searchingAndShopping {
+    display: flex;
+    gap: 16px; /* Adjust the gap between search and shopping icons */
+  }
+  
+  .search, .shopping {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    object-fit: contain; /* Maintain aspect ratio without stretching */
+  }
+
+  

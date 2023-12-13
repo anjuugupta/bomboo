@@ -1,0 +1,68 @@
+.footer {
+  background: #fff;
+}
+
+.footerIcons,
+.insta {
+  margin: 0 45px 0 45px;
+  margin-top: 35px;
+}
+
+.xcorp,
+.insta,
+.youtube {
+  height: 33px;
+}
+/* 
+
+.rhombus-divider {
+    position: relative;
+    border: 60px solid transparent;
+    border-bottom: 75px solid #05ed08;
+   }
+hr.rhombus-divider {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, #f0f0f0, #8f8f8f, #f0f0f0);
+  }
+  hr.rhombus-divider::after {
+    content: '§';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    transform-origin: 50% 50%;
+    padding: 1rem;
+    background-color: white;
+  } */
+
+  /* <hr className="rhombus-divider" /> */
+
+  .footerhr{
+    height: 15px;
+    margin-top: 45px;
+  }
+.footerNav{
+    margin: 30px 0;
+ /* 150% */
+}
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 83px;
+    
+  }
+  .footerNav ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+  .companydetail{
+
+font-size: 21px;
+font-weight: 400;
+line-height: 184%; /* 29.44px */
+  }
